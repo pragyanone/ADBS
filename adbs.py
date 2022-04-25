@@ -279,3 +279,11 @@ if __name__ == "__main__":
                 print(f"BS Date: {ad2bs(date)}")
             elif choice == "2":
                 print(f"AD Date: {bs2ad(date)}")
+
+
+def bssub(a, b):
+    return bs2days(a) - bs2days(b)
+
+
+def adsub(a, b):
+    return ad2days(a) - ad2days(b)
