@@ -6,7 +6,7 @@ The ubiquitous calendar with the date '1st Jan 2022' is the [Gregorian](https://
 
 [Bikram Sambat](https://www.wikiwand.com/en/Bikram_Samvat) is **the official** calendar in [Nepal](https://www.wikiwand.com/en/Nepal). Currently it is 'Year 2079' in Bikram Sambat whereas it is 'Year 2022' in the Gregorian. Bikram Sambat is ~57 years ahead of Gregorian. Dates are commonly written as **2022-01-01 AD** in the Gregorian, and **2079-01-01 BS** in the Bikram Sambat. So, they are commonly reffered as *AD date* and *BS date* here in Nepal, and thus the name of this project.
 
-Please check [Hamro Patro](https://www.hamropatro.com/) to view the calendar. It also has mobile apps.
+Please check [Hamro Patro](https://www.hamropatro.com/) to view the calendar. It also has mobile apps. 
 
 # Implementation
 The Gregorian calendar is simple. Each month has the same number of days except for February, in leap years. Bikram Sambat calendar doesn't have fixed number of days in months. A database if provided for upto few decades in the future.
