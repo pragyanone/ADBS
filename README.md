@@ -24,9 +24,9 @@ Prerequisite: A known day in both date systems (1918-4-13 AD = 1975-1-1 BS). Let
 - d is added to the AD base date 
 
 # More info on Bikram Sambat calendar:
-- Both calendars have 12 months.
-- The BS months are: Baisakh to Chaitra.
-- Baisakh 1st falls on April 13th or 14th.
+- Has 12 months as Gregorian calendar
+- The BS months are: Baisakh to Chaitra
+- Baisakh 1st falls on April 13th or 14th
 - The fiscal year however starts from the 4th month. For example, currently the fiscal year is 2079/2080, which started on 2079-04-01 *(2022 Jul 17)*, and will end on 2080-03-31 *(2022-Jul 16)*.
 
 ## For software developers
