@@ -20,9 +20,13 @@ def clear():
 root = tk.Tk()
 root.title("ADBS")
 root.resizable(0, 0)
+tk.Label(root, text="(ShresthaPragyan.com.np)").grid(row=0)
 clearButton = tk.Button(root, text="Clear", command=clear).grid(
-    columnspan=2, sticky="e", padx=3, pady=3
+    row=0, columnspan=2, sticky="e", padx=3, pady=3
 )
+
+root.columnconfigure(0, weight=1)
+root.columnconfigure(1, weight=1)
 bsDate = tk.StringVar()
 adDate = tk.StringVar()
 bsFrame = tk.Frame(root)
