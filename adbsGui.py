@@ -14,7 +14,8 @@ def ad2bsM(date):
 def clear():
     for widget in root.winfo_children():
         if type(widget) == tk.Label:
-            widget.grid_forget()
+            if not widget.cget("text") == "(ShresthaPragyan.com.np)":
+                widget.grid_forget()
 
 
 root = tk.Tk()
